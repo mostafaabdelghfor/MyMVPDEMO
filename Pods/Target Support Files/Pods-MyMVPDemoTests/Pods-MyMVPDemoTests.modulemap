@@ -1,0 +1,6 @@
+framework module Pods_MyMVPDemoTests {
+  umbrella header "Pods-MyMVPDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

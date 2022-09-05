@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PagerTitleCollectionViewCell" customModule="Youmeda" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="126"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="126"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ppf-ES-G5i">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="126"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJo-TV-imF" customClass="GTLabel" customModule="Youmeda" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="52.5" width="160" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3w-4c-Bek">
+                        <rect key="frame" x="0.0" y="124" width="160" height="2"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="iAT-nC-gQF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="sJo-TV-imF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0Je-Yz-TBw"/>
+                <constraint firstItem="Ppf-ES-G5i" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6z0-Lu-SnL"/>
+                <constraint firstItem="T3w-4c-Bek" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Lvc-Km-8RN"/>
+                <constraint firstAttribute="trailing" secondItem="sJo-TV-imF" secondAttribute="trailing" id="Ohf-Ta-ebV"/>
+                <constraint firstItem="Ppf-ES-G5i" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="d7s-es-IbX"/>
+                <constraint firstItem="sJo-TV-imF" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="f6R-bC-g1G"/>
+                <constraint firstAttribute="bottom" secondItem="T3w-4c-Bek" secondAttribute="bottom" id="fqh-kd-Hwy"/>
+                <constraint firstAttribute="trailing" secondItem="T3w-4c-Bek" secondAttribute="trailing" id="gXw-OZ-xdE"/>
+                <constraint firstAttribute="bottom" secondItem="Ppf-ES-G5i" secondAttribute="bottom" id="mAY-d7-wvh"/>
+                <constraint firstAttribute="trailing" secondItem="Ppf-ES-G5i" secondAttribute="trailing" id="mc4-I6-vI7"/>
+            </constraints>
+            <size key="customSize" width="160" height="126"/>
+            <connections>
+                <outlet property="constraintHeightIndicator" destination="iAT-nC-gQF" id="ZUa-tL-9Is"/>
+                <outlet property="labelTitle" destination="sJo-TV-imF" id="PrT-f1-iIz"/>
+                <outlet property="viewBackground" destination="Ppf-ES-G5i" id="W7r-KD-CrG"/>
+                <outlet property="viewIndicator" destination="T3w-4c-Bek" id="JLK-PP-Fxc"/>
+            </connections>
+            <point key="canvasLocation" x="46.376811594202906" y="88.392857142857139"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="sJo-TV-imF">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
