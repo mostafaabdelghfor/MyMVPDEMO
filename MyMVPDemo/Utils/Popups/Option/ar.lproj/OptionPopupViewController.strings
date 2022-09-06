@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "AX4-vf-r73"; */
+"AX4-vf-r73.normalTitle" = "لا";
+
+/* Class = "UILabel"; text = "نموذج شاشة نافذة بوب أب نموذج شاشة نافذة بوب أب نموذج شاشة نافذة بوب أب "; ObjectID = "Xyd-iB-TZk"; */
+"Xyd-iB-TZk.text" = "نموذج شاشة نافذة بوب أب نموذج شاشة نافذة بوب أب نموذج شاشة نافذة بوب أب ";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "ryn-C8-8Cc"; */
+"ryn-C8-8Cc.normalTitle" = "نعم";
